@@ -1,7 +1,7 @@
 Summary:	video codec library
 Name:		capseo
 Version:	0.3.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		Libraries
 Source0:	http://ftp.de.debian.org/debian/pool/main/c/capseo/%{name}_%{version}~svn158.orig.tar.gz
