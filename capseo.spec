@@ -4,7 +4,7 @@ Version:	0.3.0
 Release:	2
 License:	GPL
 Group:		Libraries
-Source0:	http://ftp.de.debian.org/debian/pool/main/c/capseo/%{name}_%{version}~svn158.orig.tar.gz
+Source0:	ftp://ftp.debian.org/debian/pool/main/c/capseo/%{name}_%{version}~svn158.orig.tar.gz
 # Source0-md5:	46660f02f7d5b8fcf7c9b5cc89eca6fe
 URL:		http://rm-rf.in/capseo
 BuildRequires:	Mesa-libGL-devel
