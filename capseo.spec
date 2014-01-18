@@ -9,7 +9,7 @@ Summary:	Video codec library
 Summary(pl.UTF-8):	Biblioteka kodeka obrazu
 Name:		capseo
 Version:	0.3.0
-Release:	2
+Release:	3
 License:	GPL v2
 Group:		Libraries
 Source0:	ftp://ftp.debian.org/debian/pool/main/c/capseo/%{name}_%{version}~svn158.orig.tar.gz
