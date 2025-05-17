@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_with	mmx	# MMX acceleration (won't work without)
+%bcond_with	mmx	# MMX acceleration (obligatory, no runtime detection)
 #
 %ifarch %{x8664} pentium2 pentium3 pentium4 athlon
 %define	with_mmx	1
@@ -24,6 +24,7 @@ BuildRequires:	pkgconfig >= 1:0.17.2
 BuildRequires:	yasm
 %endif
 Requires:	libogg >= 1:1.1
+%{?with_mmx:Requires:	cpuinfo(mmx)}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
